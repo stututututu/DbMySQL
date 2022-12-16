@@ -30,6 +30,7 @@ public class DbTask {
 					+ "INSERT INTO `task`.`new_table` (`u_no`, `u_name`, `u_id`, `u_pw`, `u_birth`, `division`, `t_no`) VALUES ('4', '이재훈', 'd', 'www33', '2001-03-16', '1', '3');\r\n"
 					+ "");
 			ResultSet rs = stmt.executeQuery("SELECT * FROM task.new_table");
+			
 		} catch (Exception e) {
 			// TODO: handle exception
 			e.printStackTrace();
